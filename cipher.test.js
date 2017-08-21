@@ -1,4 +1,4 @@
-let { encipher, decipher} = require('./cipher.js');
+let {encipher, decipher} = require('./cipher.js');
 
 describe('encipher', function() {
   test('can shift a single value', function() {
